@@ -13,7 +13,6 @@ typedef struct node
 
 // linked lists algorithms ------------------------------------------
 // insertion and removal --------------------------------------------
-Node *createEmptyList();
 int countNodes(Node *head);
 void insertBegin(Node **head, int d);
 void insertEnd(Node **head, int d);

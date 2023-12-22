@@ -16,12 +16,14 @@ typedef struct DList
     doublyNode *tail;
 } DList;
 
-void addBeginDL(DList **, int);
-void addEndDL(DList **, int);
-void printDL(DList *);
-void deleteBegDL(DList **);
-void deleteEndDL(DList **);
-void deleteKeyDL(DList **, int);
-doublyNode *searchKeyDL(DList *, int);
+DList *createDList();
+doublyNode *createNode(int data);
+void addBeginDL(DList **list, int data);
+void addEndDL(DList **list, int data);
+void printDL(DList *list);
+void deleteBegDL(DList **list);
+void deleteEndDL(DList **list);
+void deleteKeyDL(DList **list, int key);
+doublyNode *searchKeyDL(DList *list, int key);
 
 #endif

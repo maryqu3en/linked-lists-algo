@@ -43,11 +43,7 @@ Understanding linked lists data structures is crucial in computer science. This 
 
 ## Exercise Problems
 
-1. **Reverse a Queue:**
-   - Reverse the elements of a queue using a stack.
-
-2. **Check if parentheses are balanced:**
-   - Ckech if an expression has balanced parentheses or not using a stack.
+1. 
 
 ## How to Use
 
